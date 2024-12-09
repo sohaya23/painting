@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+
+}
+
+.heading-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; 
+    }
+}
+
+canvas {
+    background-color: #ffffff; 
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    position:relative; 
+    width: 85%;
+    max-width: 2000px;
+}
+   
+
+.box {
+    
+    height: 50vh;
+    width: 50vw;
+    padding: 1em;
+    margin: 1em;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.heading {
+    color: #000;
+font-family: Georgia;
+font-size: 20px;
+font-style: light;
+font-weight: 100;
+line-height: normal;
+}
+
+.stylesImg{
+    width:19%;
+
+}
+.img-container{
+    display:flex;
+    justify-content: space-between; 
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: visible; 
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white; 
+}
+
+.hero-text h1 {
+    font-size: 4rem; 
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem; 
+}
+
+
+#dropdown-1, #dropdown-2, #dropdown-3, #dropdown-4 {
+    background-color: #fff7;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%; 
+    z-index: 1000;
+    
+}
+#container-1{
+    
+    background-color:white;
+
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+button.close-btn {
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.close-btn:hover {
+    background-color: #FF4F3B;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .box {
+    }
+}
